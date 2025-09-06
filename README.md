@@ -1,4 +1,3 @@
-Set-Content README.md @"
 # graphy_server — DevSecOps PoW (IBM course final lab)
 
 ---
@@ -16,9 +15,9 @@ Cert URL PDF copy of my issued certificate: : Containers&K8s.JDW.cert.IBMDesign2
 
 ![Credly Badge: ](cert-badge/security-for-professionas-and-devops-professionals.png)
 
-[Baddge URL](https://www.credly.com/badges/30760d49-6e1a-4296-9894-7b0d9af748af/linked_in_profile)
+[Badge URL](https://www.credly.com/badges/30760d49-6e1a-4296-9894-7b0d9af748af/linked_in_profile)
 
-PDF copy of my issued certificate: :(cert-badge/IBMDesign20250906-31-7hiobx.pdf)
+PDF copy of my issued certificate:[DevSecOps.Jdw.cert.IBMDesign20250906-31-7hiobx](cert-badge/IBMDesign20250906-31-7hiobx.pdf)
 
 See my notes for future DevSecOps needs taken from this course in 
 > **folder** `/notes-docs-old`
