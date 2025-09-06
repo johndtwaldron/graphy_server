@@ -1,9 +1,34 @@
-FROM node:hydrogen-buster
-COPY graphserver.js .
-COPY package.json .
-COPY UScities.json .
-RUN npm install &&\
-    apk update &&\
-    apk upgrade
-EXPOSE  4000
-CMD node graphserver.js
+# ---- build stage ----
+FROM node:20-bookworm-slim AS build
+ENV NODE_ENV=production
+WORKDIR /app
+
+# install only what we need to build, then throw this layer away later
+COPY package*.json ./
+# Prefer reproducible installs
+RUN npm ci --omit=dev
+
+COPY . .
+# If you have a build step (TS/webpack/etc.), uncomment:
+# RUN npm run build
+
+# ---- runtime stage ----
+FROM node:20-bookworm-slim AS runtime
+ENV NODE_ENV=production
+WORKDIR /app
+
+# Keep image minimal and patched
+RUN apt-get update \
+ && apt-get -y upgrade \
+ && rm -rf /var/lib/apt/lists/*
+
+# copy only the built app + node_modules from build stage
+COPY --from=build /app /app
+
+# drop root
+USER node
+
+# expose your port (change if needed)
+EXPOSE 8080
+# or whatever your start command is
+CMD ["npm", "start"]
