@@ -3,8 +3,7 @@ Set-Content README.md @"
 
 ---
 
-Coursea Course Link ([link]([https://www.coursera.org/learn/test-and-behavior-driven-development-tdd-bdd/home/module/1](https://www.coursera.org/learn/application-security-for-developers-devops)))
-
+Coursea Course Link ([link](https://www.coursera.org/learn/application-security-for-developers-devops))
 
 A tiny Node.js server used to practice **application security** and **container hardening**.  
 This repo documents a real pass of scanning, fixing, and locking down the image + deps.
@@ -15,12 +14,15 @@ This repo documents a real pass of scanning, fixing, and locking down the image 
 
 Cert URL PDF copy of my issued certificate: : Containers&K8s.JDW.cert.IBMDesign20250903-30-49pn3i.pdf
 
-![Credly Badge:](cert-badge/security-for-professionas-and-devops-professionals.png)
+![Credly Badge: ](cert-badge/security-for-professionas-and-devops-professionals.png)
 
-[Cert URL]([https://coursera.org/share/7258463a96a56c631fe34ded9022c919](https://www.credly.com/badges/30760d49-6e1a-4296-9894-7b0d9af748af/linked_in_profile))
+[Baddge URL](https://www.credly.com/badges/30760d49-6e1a-4296-9894-7b0d9af748af/linked_in_profile)
+
 PDF copy of my issued certificate: :(cert-badge/IBMDesign20250906-31-7hiobx.pdf)
 
-See my notes for future DevSecOps needs taken from this course in > **folder** '/notes-docs-old'
+See my notes for future DevSecOps needs taken from this course in 
+> **folder** `/notes-docs-old`
+
 [DevSecOps Cheatsheet (Mod1-4)](notes-docs-old/DevSecOps_Cheatsheet_Mod1-4.md)  
 [DevSecOps Glossary (Mod1-4)](notes-docs-old/DevSecOps_Glossary_Mod1-4.md)  
 [DevSecOps Summaries (Mod1-4)](notes-docs-old/DevSecOps_Summaries_Mod1-4.md)  
