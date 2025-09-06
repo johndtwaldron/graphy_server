@@ -15,12 +15,12 @@ This repo documents a real pass of scanning, fixing, and locking down the image 
 
 Cert URL PDF copy of my issued certificate: : Containers&K8s.JDW.cert.IBMDesign20250903-30-49pn3i.pdf
 
-![Credly Badge: ](security-for-professionas-and-devops-professionals.png)
+![Credly Badge:](./cert-badge/security-for-professionas-and-devops-professionals.png)
 
 [Cert URL]([https://coursera.org/share/7258463a96a56c631fe34ded9022c919](https://www.credly.com/badges/30760d49-6e1a-4296-9894-7b0d9af748af/linked_in_profile))
-PDF copy of my issued certificate: : [Containers&K8s.JDW.cert.IBMDesign20250903-30-49pn3i.pdf](IBMDesign20250906-31-7hiobx.pdf)
+PDF copy of my issued certificate: : [Containers&K8s.JDW.cert.IBMDesign20250903-30-49pn3i.pdf](./cert-badge/IBMDesign20250906-31-7hiobx.pdf)
 
-
+See my notes for future DevSecOps needs taken from this course in **/notes-docs-old:**
 
 ---
 
